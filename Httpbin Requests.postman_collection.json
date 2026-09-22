@@ -218,47 +218,6 @@
         }
       },
       "response": []
-    },
-    {
-      "name": "Bearer Token 2 with diff url",
-      "request": {
-        "auth": {
-          "type": "bearer",
-          "bearer": [
-            {
-              "key": "token",
-              "value": "{{Bt2}}",
-              "type": "string"
-            }
-          ]
-        },
-        "method": "POST",
-        "header": [],
-        "body": {
-          "mode": "raw",
-          "raw": "{\"name\":\"Aman3\",\"gender\":\"Male\",\"email\":\"aman_unique_12345@gmail.com\",\"status\":\"active\"}",
-          "options": {
-            "raw": {
-              "language": "json"
-            }
-          }
-        },
-        "url": {
-          "raw": "https://gorest.co.in/public/v2/users",
-          "protocol": "https",
-          "host": [
-            "gorest",
-            "co",
-            "in"
-          ],
-          "path": [
-            "public",
-            "v2",
-            "users"
-          ]
-        }
-      },
-      "response": []
     }
   ],
   "event": [
